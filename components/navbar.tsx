@@ -52,7 +52,7 @@ export function Navbar() {
         if (element) {
           const offsetTop =
             element.getBoundingClientRect().top + window.scrollY;
-          const offsetBottom = offsetTop + element.offsetHeight;
+          const offsetBottom = offsetTop;
 
           if (scrollPosition >= offsetTop && scrollPosition < offsetBottom) {
             setActiveSection(section);
