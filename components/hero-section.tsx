@@ -46,7 +46,7 @@ export function HeroSection() {
   const scale = useTransform(scrollYProgress, [0, 0.5], [1, 0.95]);
 
   // Replace your current viewport code with this:
-  const [viewport, setViewport] = useState(null);
+  const [viewport, setViewport] = useState<{ width: number; height: number } | null>(null);
 
   useEffect(() => {
     // Only runs on client side
