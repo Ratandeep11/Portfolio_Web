@@ -195,9 +195,9 @@ export function Navbar() {
 
                 <div className="flex flex-col items-center mb-8">
                   <div className="h-16 w-16 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-3xl mb-4">
-                    D
+                    R
                   </div>
-                  <h2 className="text-xl font-bold">DevPortfolio</h2>
+                  <h2 className="text-xl font-bold">Ratnadeep</h2>
                   <p className="text-sm text-muted-foreground">
                     Software Developer
                   </p>
@@ -273,7 +273,7 @@ export function Navbar() {
                       </svg>
                     </motion.a>
                     <motion.a
-                      href="mailto:contact@example.com"
+                      href="mailto:ratnadeep.goyal@gmail.com"
                       className="h-10 w-10 flex items-center justify-center rounded-full bg-muted text-muted-foreground hover:text-primary hover:bg-primary/10 transition-colors"
                       whileHover={{ y: -3 }}
                     >

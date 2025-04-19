@@ -153,7 +153,7 @@ export function AboutSection() {
               }}
             >
               <Image
-                src="/Profilephoto-2.jpg"
+                src="/new_photo.jpg"
                 alt="Ratnadeep Goyal"
                 fill
                 className="object-cover"
